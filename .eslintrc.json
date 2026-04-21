@@ -1,0 +1,11 @@
+{
+  "root": true,
+  "extends": ["@react-native", "plugin:react/recommended", "plugin:@typescript-eslint/recommended"],
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint"],
+  "env": {
+    "react-native/react-native": true,
+    "jest": true
+  },
+  "rules": {}
+}
